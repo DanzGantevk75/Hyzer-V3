@@ -36,9 +36,9 @@ handler.all = async function (m, { isBlocked }) {
 ║
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
 ╠➥ TOPUP/PIN
-║- 088270863279 (Dana)
-║- 088270863279 (Gopay)
-╠═〘 DanzBot 〙 ═`.trim(), 'DanzBot', 'Dana', '#viadigi', 'Gopay', '#viaumobile', m)
+║- 089523312999 (Dana)
+║- 089523312999 (Gopay)
+╠═〘 𝐏𝐎𝐉𝐀𝐍𝐍𝐍 - 𝐁𝐎𝐓𝐙 〙 ═`.trim(), '𝐏𝐎𝐉𝐀𝐍𝐍𝐍 - 𝐁𝐎𝐓𝐙', 'Dana', '#viadigi', 'Gopay', '#viaumobile', m)
 }
 
     // salam
@@ -68,7 +68,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Im DanzBot🤖 | Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} |Bot by Danzz. `).catch(_ => _)
+        await this.setStatus(`Im PojanBotz🤖 | Aktif selama ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Hanya Grup' : 'Publik'} |Bot by Pojan `).catch(_ => _)
         setting.status = new Date() * 1
     }
 
